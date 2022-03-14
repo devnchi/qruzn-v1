@@ -3,7 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { SCREENS } from "../../components/responsive";
 
-import JeepImg from "../../../assets/images/jeep.png";
+import BentleyImg from "../../../assets/images/Bentley-Bentayga_0.webp";
 
 const AboutUsContainer = styled.div`
   ${tw`
@@ -82,7 +82,7 @@ export function AboutUs() {
   return (
     <AboutUsContainer>
       <CarContainer>
-        <img src={JeepImg} />
+        <img src={BentleyImg} />
       </CarContainer>
       <InfoContainer>
         <Title>Feel The Best Experience With Our Rental Deals</Title>

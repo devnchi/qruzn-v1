@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
-import MclarenCarImg from "../../../assets/images/mclaren-orange-big.png";
-import BlobImg from "../../../assets/images/blob.svg";
+import LamboImg from "../../../assets/images/purepng.com-lamborghinilamborghinilamborghini-automobilelamborghini-carssports-car-1701527505166yod4c.png";
+import BlobImg from "../../../assets/images/purple-blob.webp";
 import { SCREENS } from "../../components/responsive";
 import { Button } from "../../components/button";
 
@@ -37,6 +37,8 @@ const RightContainer = styled.div`
     flex-col
     relative
     mt-20
+    mr-40
+    mt-16
   `};
 `;
 
@@ -70,18 +72,17 @@ const Description = styled.p`
 `;
 
 const BlobContainer = styled.div`
-  width: 20em;
-  height: 10em;
+  width: 5em;
+  height: 5em;
   position: absolute;
   right: -5em;
   top: -9em;
   z-index: -1;
-  transform: rotate(-30deg);
 
   img {
     width: 100%;
     height: auto;
-    max-height: max-content;
+    max-height: contain;
   }
 
   @media (min-width: ${SCREENS.sm}) {
@@ -112,9 +113,7 @@ const BlobContainer = styled.div`
 const StandaloneCar = styled.div`
   width: auto;
   height: 10em;
-  right: -6em;
-  top: -5em;
-  position: absolute;
+  position: relative;
 
   img {
     width: auto;
@@ -165,11 +164,8 @@ export function TopSection() {
         </ButtonsContainer>
       </LeftContainer>
       <RightContainer>
-        <BlobContainer>
-          <img src={BlobImg} />
-        </BlobContainer>
         <StandaloneCar>
-          <img src={MclarenCarImg} />
+          <img src={LamboImg} />
         </StandaloneCar>
       </RightContainer>
     </TopSectionContainer>

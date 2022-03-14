@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
-import CarLogoImg from "../../../assets/images/car-logo.png";
+import CarLogoImg from "../../../assets/images/8.png";
+import FullCarLogoImg from "../../../assets/images/5.png";
 import CarLogoDarkImg from "../../../assets/images/car-logo-dark.png";
 
 interface ILogoProps {
@@ -44,7 +45,7 @@ export function Logo(props: ILogoProps) {
   return (
     <LogoContainer>
       <Image>
-        <img src={bgColor === "dark" ? CarLogoDarkImg : CarLogoImg} />
+        <img src={bgColor === "dark" ? CarLogoImg : FullCarLogoImg} />
       </Image>
       <LogoText color={color || "dark"}>Qruzn</LogoText>
     </LogoContainer>

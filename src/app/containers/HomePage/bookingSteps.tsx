@@ -47,7 +47,7 @@ const StepContainer = styled.div`
     md:w-96
     items-center
     transition-colors
-    hover:text-red-500
+    hover:text-purple-500
     m-3
   `};
 `;
@@ -84,7 +84,7 @@ const StepDescription = styled.p`
 
 const StepIcon = styled.span`
   ${tw`
-    text-red-500
+    text-purple-500
     text-3xl
   `};
 `;
