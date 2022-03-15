@@ -16,6 +16,7 @@ const FooterContainer = styled.div`
     md:pt-16
     items-center
     justify-center
+    font-Monument
   `};
 `;
 
@@ -105,8 +106,8 @@ const ListItem = styled.li`
 
   & > a {
     ${tw`
-      text-sm
-    text-white
+      text-xs
+      text-white
       transition-all
       hover:text-gray-200
     `};
@@ -115,10 +116,11 @@ const ListItem = styled.li`
 
 const HeaderTitle = styled.h3`
   ${tw`
-    text-2xl
+    text-lg
     font-bold
     text-white
     mb-3
+    text-purple-500
   `};
 `;
 
@@ -158,8 +160,8 @@ export function Footer() {
         <AboutContainer>
           <Logo color="white" bgColor="dark" />
           <AboutText>
-            Yourcar is a Car renting and selling company located in many
-            countries across the world which has high quality cars and top rated
+            Qruzn© is a car rental and selling company located in many
+            countries across the world. We specialize in high quality inventory and top rated
             service.
           </AboutText>
         </AboutContainer>
@@ -209,7 +211,7 @@ export function Footer() {
             <RedIcon>
               <FontAwesomeIcon icon={faPhoneAlt} />
             </RedIcon>
-            <SmallText>+91 555-234-8469</SmallText>
+            <SmallText>+91 555-234-5678</SmallText>
           </HorizontalContainer>
         </SectionContainer>
         <SectionContainer>
@@ -218,13 +220,13 @@ export function Footer() {
             <RedIcon>
               <FontAwesomeIcon icon={faEnvelope} />
             </RedIcon>
-            <SmallText>info@yourcar.com</SmallText>
+            <SmallText>info@qruzn.com</SmallText>
           </HorizontalContainer>
         </SectionContainer>
       </InnerContainer>
       <BottomContainer>
         <CopyrightText>
-          Copyright &copy; {new Date().getFullYear()} Yourcar. All rights
+          Copyright &copy; {new Date().getFullYear()} Qruzn© All rights
           reserved.
         </CopyrightText>
       </BottomContainer>

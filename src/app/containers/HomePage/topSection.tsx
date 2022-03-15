@@ -37,8 +37,6 @@ const RightContainer = styled.div`
     flex-col
     relative
     mt-20
-    mr-40
-    mt-16
   `};
 `;
 
@@ -46,9 +44,9 @@ const Slogan = styled.h1`
   ${tw`
     font-bold
     text-2xl
-    xl:text-6xl
+    xl:text-5xl
     sm:text-3xl
-    md:text-5xl
+    md:text-4xl
     lg:font-black
     md:font-extrabold
     text-black
@@ -56,6 +54,7 @@ const Slogan = styled.h1`
     sm:leading-snug
     lg:leading-normal
     xl:leading-relaxed
+    font-Monument
   `};
 `;
 
@@ -127,17 +126,24 @@ const StandaloneCar = styled.div`
     top: -6em;
   }
 
+  @media (min-width: ${SCREENS.md}) {
+    height: 16em;
+    right: -2em;
+    top: -6em;
+  }
+
   @media (min-width: ${SCREENS.lg}) {
-    height: 21em;
-    right: -8em;
-    top: -5em;
+    height: 20em;
+    right: -3em;
+    top: -8em;
   }
 
   @media (min-width: ${SCREENS.xl}) {
-    height: 30em;
-    right: -13em;
+    height: 29em;
+    right: -3em;
     top: -9em;
   }
+
 `;
 
 const ButtonsContainer = styled.div`
@@ -152,7 +158,7 @@ export function TopSection() {
   return (
     <TopSectionContainer>
       <LeftContainer>
-        <Slogan>Rent The Best Qulity Car's With Us</Slogan>
+        <Slogan>Helping You Qruze Through Your Next Trip</Slogan>
         <Description>
           Always choose the best car from our local stores or order it remotely
           at the best price for you and get the best quality cars for as long as

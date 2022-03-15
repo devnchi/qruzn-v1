@@ -48,6 +48,7 @@ const CarName = styled.h3`
     text-black
     mt-1
     mb-1
+    font-Monument
   `};
 `;
 
@@ -131,6 +132,7 @@ const RentButton = styled(Button)`
   ${tw`
     min-w-full
     mt-5
+    font-Monument
   `};
 `;
 

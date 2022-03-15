@@ -31,6 +31,7 @@ const CardContainer = styled.div`
     md:pb-2
     md:pl-9
     md:pr-9
+    m-5
   `};
 `;
 
@@ -66,6 +67,7 @@ const Name = styled.span`
     md:text-sm
     cursor-pointer
     select-none
+    font-Monument
   `};
 `;
 

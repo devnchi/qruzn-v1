@@ -23,10 +23,14 @@ const LogoText = styled.div`
     text-xl
     md:text-2xl
     font-bold
-    text-black
     m-1
+    font-Monument
+    text-5xl
+    text-purple-500
+    mt-2
+    pt-1
     `};
-  ${({ color }: any) => (color === "white" ? tw`text-white` : tw`text-black`)}
+  /* ${({ color }: any) => (color === "white" ? tw`text-white` : tw`text-black`)} */
 ` as any;
 
 const Image = styled.div`
@@ -44,10 +48,7 @@ export function Logo(props: ILogoProps) {
 
   return (
     <LogoContainer>
-      <Image>
-        <img src={bgColor === "dark" ? CarLogoImg : FullCarLogoImg} />
-      </Image>
-      <LogoText color={color || "dark"}>Qruzn</LogoText>
+      <LogoText color={color || "dark"}>QRUZN</LogoText>
     </LogoContainer>
   );
 }

@@ -3,7 +3,11 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
    darkMode: false, // or 'media' or 'class'
    theme: {
-     extend: {},
+     extend: {      
+       fontFamily: {
+        Monument: ["Monument Extended", "sans-serif"],
+      },
+    },
      screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

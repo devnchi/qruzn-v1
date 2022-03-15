@@ -64,6 +64,7 @@ const Title = styled.h1`
     font-extrabold
     md:font-black
     md:leading-normal
+    font-Monument
   `};
 `;
 
@@ -85,7 +86,7 @@ export function AboutUs() {
         <img src={BentleyImg} />
       </CarContainer>
       <InfoContainer>
-        <Title>Feel The Best Experience With Our Rental Deals</Title>
+        <Title>Get The Best Experience With Our Cars</Title>
         <InfoText>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad

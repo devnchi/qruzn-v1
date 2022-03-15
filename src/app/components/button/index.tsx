@@ -27,6 +27,7 @@ const BaseButton = styled.button`
     duration-200
     ease-in-out
     m-1
+    font-Monument
   `};
 `;
 
@@ -36,6 +37,7 @@ const OutlinedButton = styled(BaseButton)`
     hover:bg-transparent
     hover:text-purple-500
     hover:border-purple-500
+    font-Monument
   `};
 `;
 
@@ -47,6 +49,7 @@ const FilledButton = styled(BaseButton)`
     hover:bg-purple-500
     hover:text-white
     hover:border-transparent
+    font-Monument
   `};
 `;
 

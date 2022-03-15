@@ -27,6 +27,7 @@ const Title = styled.h2`
     lg:text-5xl
     text-black
     font-extrabold
+    font-Monument
   `};
 `;
 
@@ -69,6 +70,7 @@ const StepTitle = styled.h4`
     text-lg
     font-semibold
     mt-4
+    font-Monument
   `};
 `;
 
@@ -92,7 +94,7 @@ const StepIcon = styled.span`
 export function BookingSteps() {
   return (
     <Container>
-      <Title>Our Working Steps</Title>
+      <Title>How It Works</Title>
       <StepsContainer>
         <StepContainer>
           <Step>
@@ -102,7 +104,7 @@ export function BookingSteps() {
           </Step>
           <StepTitle>Choose Location</StepTitle>
           <StepDescription>
-            Find the nearest Yourcar point and book your car.
+            Find the nearest Qruzn location.
           </StepDescription>
         </StepContainer>
         <StepContainer>
@@ -113,7 +115,7 @@ export function BookingSteps() {
           </Step>
           <StepTitle>Pick-Up Date</StepTitle>
           <StepDescription>
-            Pickup the Best Date to rent a car for you.
+            Pick a date to rent a car.
           </StepDescription>
         </StepContainer>
         <StepContainer>
@@ -124,7 +126,7 @@ export function BookingSteps() {
           </Step>
           <StepTitle>Book Your Car</StepTitle>
           <StepDescription>
-            Book your nice car with ease in one single click
+            Book your best car rental experience in one single click.
           </StepDescription>
         </StepContainer>
       </StepsContainer>
