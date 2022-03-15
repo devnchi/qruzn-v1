@@ -72,7 +72,7 @@ const SmallText = styled.p`
 
 const DailyPrice = styled.h5`
   ${tw`
-    text-purple-500
+    text-blue-400
     font-bold
     text-sm
     mr-3

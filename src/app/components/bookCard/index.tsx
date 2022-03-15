@@ -41,7 +41,7 @@ const ItemContainer = styled.div`
 
 const Icon = styled.span`
   ${tw`
-    text-purple-500
+    text-blue-400
       fill-current
       text-xs
       md:text-base

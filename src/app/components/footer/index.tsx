@@ -136,7 +136,7 @@ const RedIcon = styled.span`
     w-9
     h-9
     rounded-full
-    bg-purple-500
+    bg-blue-400
     flex
     items-center
     justify-center
